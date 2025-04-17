@@ -1974,3 +1974,23 @@ textarea.form-input::-webkit-resizer { display: none; }
   object-fit: contain;
   filter: drop-shadow(0 0 2px white);
 }
+
+#resume {
+  background-color: rgb(233, 171, 56);
+  color: black;
+  height: 40px;
+  padding: 0 16px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+#resume:hover {
+  background-color: rgb(210, 150, 40);
+}
