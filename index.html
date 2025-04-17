@@ -460,11 +460,19 @@
         </section>
 
         <!-- Cloud -->
-        <section class="skills-cloud-section">
+        <section class="skills-cloud-section desktop-only">
           <div class="skills-cloud-wrapper">
             <div class="icon-cloud" id="iconCloud"></div>
           </div>
         </section>
+
+        <style>
+          @media (max-width: 768px) {
+            .desktop-only {
+              display: none;
+            }
+          }
+        </style>
       </article>
 
       <!--
